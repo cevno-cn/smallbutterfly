@@ -11,7 +11,7 @@ body{
 	right: 0;
 	bottom: 0;
 	left: 0;
-/* 	background-color: #333333; */
+	background-color: #333333;
 }
 body::-webkit-scrollbar{
 	display: none;
@@ -24,16 +24,8 @@ header{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	position: relative;
 	z-index: 0;
 }
-/* header::before{
-	content: "";
-	display: block;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0,0,0,0.3);
-} */
 .cevno{
 	width: 100%;
 	padding: 5vh 10vw;
@@ -92,23 +84,15 @@ a:hover::after{
 	color: white;
 	font-size: 13px;
 }
-
-
-
-
 section{
 	width: 100%;
 	height: 100%;
 	background-image: url(../img/th.jpg);
-/* 	background-color: #2AB2AB; */
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	-webkit-filter: grayscale(100%);
-	/* filter: blur(20px); */
+	position: relative;
+	z-index: 999;
 }
-/* footer{
-	width: 100%;
-	height: 100%;
-} */
